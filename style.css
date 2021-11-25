@@ -1,0 +1,70 @@
+body{
+	margin: 0px;
+	background-color: #325f56;
+	background-image: url('images/bg1.jpg');
+  	background-repeat: no-repeat;
+  	background-attachment: fixed;  
+  	background-size: cover;
+}
+
+.container{
+	display: grid;
+	grid-template-columns:1fr; 
+}
+
+.navbar{
+	background-color:rgba(52,58,64,0.0);
+}
+
+.nav-link:hover {
+	background-color: rgba(255,255,255,0.2);
+}
+
+.nav-link a:hover {
+	text-decoration: none;
+}
+
+
+.container-fluid{
+	padding: 0px;
+}
+
+.header{
+	color: #fff;
+	font-weight: bold;
+	z-index: 2;
+	position: fixed;
+}
+
+#demo{
+	z-index: 1;
+}
+
+@font-face {
+	font-family: myfont;
+	src: url(font/Faster_One/FasterOne-Regular.ttf);
+}
+.navbar-brand{
+	font-size: 30px;
+	font-family:myfont;
+}
+
+.card{
+	transition: transform 1s;
+}
+
+.card:hover{
+	transform: scale(1.1);
+}
+
+.thongbao{
+	background-color: #aeaeae;
+}
+
+.thongbao .shadow{
+	border: 3px solid #5e5e5e;
+}
+
+.carousel{
+	z-index: 1;
+}
